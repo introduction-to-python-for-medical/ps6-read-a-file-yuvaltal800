@@ -9,4 +9,4 @@ def creat_codon_dict(file_path):
     codon=clean[0]
     amino_acid_abbreviation=clean[2]
     codon_to_amino[codon] = amino_acid_abbreviation
- return codon_to_amino
+ return creat_codon_dict
